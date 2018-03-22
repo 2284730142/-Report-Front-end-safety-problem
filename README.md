@@ -50,8 +50,8 @@
     
     防御措施： a.尽可能不在前端存这些数据。
     
-8.缺乏静态资源完整性校验
+8.缺乏静态资源完整性校验<a href="./specification/SRI.md">[4]</a>
 
     原因： a.前端应用将一些静态资源放到CDN（Content Delivery Networks）中，攻击者如果对CDN中资源进行污染，那么我们就会拿到有问题的资源。
     
-    防御措施： a.SRI（Subresource Integrity，子资源完整性）。
+    防御措施： a.SRI（Subresource Integrity，子资源完整性）[4]。
