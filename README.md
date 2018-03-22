@@ -1,15 +1,14 @@
 # -Report-Front-end-safety-problem
 前端安全问题及其处理方式的简书
 
-
-一、前端八大安全问题
+一、前端安全问题(附带的[1]是某个东西的具体说明)
 
 1.XSS(Cross Site Scripting，跨站脚本攻击)<a href="./specification/CSP.md">[1]</a>
 
     原因： a.浏览器错误的将攻击者提供的用户输入数据当做JavaScript脚本给执行了。
     
     防御措施： a.各类数据进行编码。
-              b.设置CSP HTTP Header。
+              b.设置CSP HTTP Header[1]。
               c.输入验证。
               d.开启浏览器XSS防御。
               
