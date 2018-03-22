@@ -19,12 +19,12 @@
          
     防御措施： a.H5中，给iframe添加sandbox属性。
     
-3.点击劫持
+3.点击劫持<a href="./specification/X-Frame-Options.md">[2]</a>
 
     原因： a.攻击者诱导用户点击其准备的iframe的内容。
     
     防御措施： a.FrameBreaking。
-              b.X-Frame-Options：DENY 的HTTP Header。
+              b.X-Frame-Options：DENY 的HTTP Header[2]。
      
 4.错误内容推断
 
