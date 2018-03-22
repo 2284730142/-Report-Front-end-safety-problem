@@ -38,11 +38,11 @@
     
     防御措施： a.自动化工具进行检查。
     
-6.用https也会出现坑
+6.用https也会出现坑<a href="./specification/HTTPStrictTransportSecurity.md">[3]</a>
 
     原因： a.黑客可以利用SSL Stripping这种攻击手段，强制让HTTPS降级回HTTP，从而继续进行中间人攻击。
     
-    防御措施： a.HSTS（HTTP Strict Transport Security，强制性安全措施）
+    防御措施： a.HSTS（HTTP Strict Transport Security，强制性安全措施）[3]
     
 7.本地存储数据泄露
 
